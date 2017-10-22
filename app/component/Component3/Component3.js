@@ -6,7 +6,7 @@ export default class Component3 extends Component {
       super();
       const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
       this.state = {
-        dataSource: ds.cloneWithRows(['First Row', 'Second Row']),
+        dataSource: ds.cloneWithRows(['First Row', 'Second Row', 'Third Row']),
       };
     }
   
